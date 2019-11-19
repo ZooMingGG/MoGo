@@ -128,7 +128,7 @@ hr {
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
-    transition: background 0.2s linear, color 0.2s linear;
+    transition: background-color 0.2s linear, color 0.2s linear;
 }
 .btn:hover {
     background-color: #FFFFFF;
@@ -173,7 +173,7 @@ hr {
 }
 .slider__num {
     font-size: 24px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .slider__num {
     margin-right: 9px;
@@ -498,7 +498,7 @@ hr {
     padding-left: 17px;
     padding-right: 15px;
     line-height: 1;
-    transition: backgroun 0.2s linear, color 0.2s linear;
+    transition: backgroun-color 0.2s linear, color 0.2s linear;
 }
 .social__item:last-child {
     border-right: none;
@@ -554,7 +554,6 @@ hr {
 .works-img {
     display: block;
     max-width: 100%;
-    max-height: auto;
     transition: opacity 0.2s linear;
 }
 .works-info {
