@@ -223,12 +223,14 @@ hr {
 }
 /* Card */
 .card {
-    margin-top: 80px;
+    margin: 80px -15px 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card__item {
-    width: 380px;  
+    width: 33.33333%;
+    padding: 0 15px;
 }
 .card__inner {
     background-color: #95e1d3; 
@@ -249,6 +251,7 @@ hr {
 }
 .card__img img {
     display: block;
+    max-width: 100%;
     transition: opacity 0.1s linear;
 }
 .card__text {
@@ -273,6 +276,7 @@ hr {
 }
 .stat {
     display: flex;
+    flex-wrap: wrap;
 }
 .stat__item {
     padding: 70px 25px;
@@ -927,6 +931,11 @@ hr {
 }
 /* Media */
 @media (max-width: 1230px) {
+/* Section-header */
+    .section__title:after {
+        margin: 25px auto 25px;
+    }
+
 /* Intro */
     .intro__suptitle {
         font-size: 60px;
@@ -951,9 +960,31 @@ hr {
     .section {
         padding: 40px 0;
     }
+
+/* Stat */
+    .stat {
+        justify-content: center;
+    }
+
+    .stat__item {
+        flex: none;
+        width: 33.333%;
+        justify-content: center;
+        border: none;
+        padding: 40px 25px;
+    }
+
+    .stat__item:last-child {
+        border: none;
+    }
 }
 
 @media (max-width: 770px) {
+/* Section-header */
+    .section__title:after {
+        margin: 20px auto 20px;
+    }
+
 /* Intro */
     .intro__suptitle {
         font-size: 42px;
@@ -980,10 +1011,52 @@ hr {
     .slider__item.active:before {
         width: 50%;
     }
+
+/* Card */
+    .card {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .card__item {
+        width: 100%;
+        max-width: 410px;
+        margin-bottom: 20px;
+    }
+
+    .card__item:last-child {
+        margin-bottom: 0;
+    }
+
+/* Stat */
+    .stat__count {
+        font-size: 64px
+    }
+
+    .stat__text {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 575px) {
-    /* Intro */
+/* Section-header */
+    .section__suptitle {
+        font-size: 18px;
+    }
+
+    .section__title {
+        font-size: 24px;
+    }
+
+    .section__text {
+        font-size: 12px;
+    }
+
+    .section__title:after {
+        margin: 20px auto 20px;
+    }
+
+/* Intro */
     .intro__suptitle {
         font-size: 24px;
     }
@@ -995,6 +1068,24 @@ hr {
 /* Section */
     .section {
         padding: 30px 0;
+    }
+
+/* Stat */
+    .stat__item {
+        width: 100%;
+        border-bottom: 1px solid #b5eae0;
+    }
+
+    .stat__item:last-child {
+        border-bottom: none;
+    }
+
+    .stat__count {
+        font-size: 72px
+    }
+
+    .stat__text {
+        font-size: 14px;
     }
 }
 
