@@ -20,7 +20,8 @@ hr {
 }
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 /* Intro */
@@ -150,7 +151,7 @@ hr {
     position: relative;
     border-top: 3px solid #FFFFFF;
     padding: 25px 0;
-    width: 280px;
+    width: 23.3%;
     font-size: 18px;
     color: #FFFFFF;
     font-family: Montserrat;
@@ -923,4 +924,39 @@ hr {
     width: 100%;
     background-color: #e5e5e5;
     margin-bottom: 25px;
+}
+/* Media */
+@media (max-width: 1230px) {
+/* Intro */
+    .intro__suptitle {
+        font-size: 60px;
+    }
+
+    .intro__title {
+        font-size: 136px;
+    }
+}
+
+@media (max-width: 990px) {
+
+}
+
+@media (max-width: 770px) {
+/* Nav */
+    .nav {
+        display: none;
+    }
+
+/* Slider */
+    .slider__text {
+        display: none;
+    }
+
+    .slider__item.active:before {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+
 }
