@@ -20,7 +20,8 @@ hr {
 }
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 /* Intro */
@@ -128,7 +129,7 @@ hr {
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
-    transition: background 0.2s linear, color 0.2s linear;
+    transition: background-color 0.2s linear, color 0.2s linear;
 }
 .btn:hover {
     background-color: #FFFFFF;
@@ -150,7 +151,7 @@ hr {
     position: relative;
     border-top: 3px solid #FFFFFF;
     padding: 25px 0;
-    width: 280px;
+    width: 23.3%;
     font-size: 18px;
     color: #FFFFFF;
     font-family: Montserrat;
@@ -173,7 +174,7 @@ hr {
 }
 .slider__num {
     font-size: 24px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .slider__num {
     margin-right: 9px;
@@ -498,7 +499,7 @@ hr {
     padding-left: 17px;
     padding-right: 15px;
     line-height: 1;
-    transition: backgroun 0.2s linear, color 0.2s linear;
+    transition: backgroun-color 0.2s linear, color 0.2s linear;
 }
 .social__item:last-child {
     border-right: none;
@@ -554,7 +555,6 @@ hr {
 .works-img {
     display: block;
     max-width: 100%;
-    max-height: auto;
     transition: opacity 0.2s linear;
 }
 .works-info {
@@ -846,7 +846,7 @@ hr {
     font-weight: bold;
 }
 .submit-form:hover {
-cursor: pointer;
+    cursor: pointer;
 }
 .footer-logos {
     margin-top: 20px;
@@ -876,9 +876,9 @@ cursor: pointer;
     border-bottom: 3px #ffffff solid;
 }
 .portfolio-img {
-  display: block;
-  width: 88px;
-  height: 88px;
+    display: block;
+    width: 88px;
+    height: 88px;
 }
 .blogs-block {
     position: relative;
@@ -926,6 +926,7 @@ cursor: pointer;
     margin-bottom: 25px;
 }
 /* Media */
+<<<<<<< HEAD
 @media (max-width: 1200px) {
     
 }
@@ -945,3 +946,66 @@ cursor: pointer;
 
 
 
+=======
+@media (max-width: 1230px) {
+/* Intro */
+    .intro__suptitle {
+        font-size: 60px;
+    }
+
+    .intro__title {
+        font-size: 136px;
+    }
+}
+
+@media (max-width: 990px) {
+/* Intro */
+    .intro__suptitle {
+        font-size: 54px;
+    }
+
+    .intro__title {
+        font-size: 124px;
+    }
+}
+
+@media (max-width: 770px) {
+/* Intro */
+    .intro__suptitle {
+        font-size: 42px;
+    }
+
+    .intro__title {
+        font-size: 94px;
+    }
+
+/* Nav */
+    .nav {
+        display: none;
+    }
+
+/* Slider */
+    .slider {
+        display: none;
+    }
+
+    .slider__text {
+        display: none;
+    }
+
+    .slider__item.active:before {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    /* Intro */
+    .intro__suptitle {
+        font-size: 24px;
+    }
+
+    .intro__title {
+        font-size: 52px;
+    }
+}
+>>>>>>> 2e07a20ae817144589882028522396b22066d29d
