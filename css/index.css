@@ -926,27 +926,6 @@ hr {
     margin-bottom: 25px;
 }
 /* Media */
-<<<<<<< HEAD
-@media (max-width: 1200px) {
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 @media (max-width: 1230px) {
 /* Intro */
     .intro__suptitle {
@@ -966,6 +945,11 @@ hr {
 
     .intro__title {
         font-size: 124px;
+    }
+
+/* Section */
+    .section {
+        padding: 40px 0;
     }
 }
 
@@ -1007,5 +991,10 @@ hr {
     .intro__title {
         font-size: 52px;
     }
+
+/* Section */
+    .section {
+        padding: 30px 0;
+    }
 }
->>>>>>> 2e07a20ae817144589882028522396b22066d29d
+
