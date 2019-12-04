@@ -599,7 +599,7 @@ hr {
     padding-left: 17px;
     padding-right: 15px;
     line-height: 1;
-    transition: backgroun-color 0.2s linear, color 0.2s linear;
+    transition: background-color 0.2s linear, color 0.2s linear;
 }
 
 .social__item:last-child {
