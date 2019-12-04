@@ -1098,6 +1098,22 @@ hr {
         width: 100px;
         height: 100px;
     }
+
+/* Logos */
+    .logos {
+        flex-wrap: wrap;
+    }
+
+    .logos-item {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+    .logos__img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1195,6 +1211,11 @@ hr {
         width: 80px;
         height: 80px;
         margin: 0 auto 5px;
+    }
+ 
+/* Logos */
+    .logos-item {
+        width: 45%;
     }
 }
 
