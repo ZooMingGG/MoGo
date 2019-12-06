@@ -1125,6 +1125,38 @@ hr {
     .stories-image {
         max-width: 100%;
     }
+
+/* Footer */
+    .footer-info {
+        flex-wrap: wrap;
+    }
+
+    .footer-item-1 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-item-2 {
+        width: 50%;
+        margin-top: 0;
+        max-width: 100%;
+    }
+
+    .footer-item-3 {
+        width: 40%;
+        text-align: center;
+        margin-toP: 0;
+        max-width: 100%;
+    }
+
+    .footer-portfolio {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .portfolio-img {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 990px) {
@@ -1384,6 +1416,17 @@ hr {
        width: 100%;
        padding-right: 0;
    }
+
+/* Footer */
+.footer-item-2 {
+    width: 100%;
+    margin-left: 0;
+}
+
+.footer-item-3 {
+    width: 100%;
+    margin-left: 0;
+}
 }
 
 @media (max-width: 575px) {
