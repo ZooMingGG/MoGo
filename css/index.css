@@ -1128,6 +1128,11 @@ hr {
 }
 
 @media (max-width: 990px) {
+/* Nav */
+    .nav__link {
+        font-size: 12px;
+    }
+
 /* Intro */
     .intro__suptitle {
         font-size: 54px;
@@ -1514,5 +1519,14 @@ hr {
 
     .client-prof:after {
         margin: 10px auto;
+    }
+
+/* Footer */
+    .footer-link {
+        font-size: 12px;
+    }
+
+    .footer-span {
+        font-size: 12px;
     }
 }
