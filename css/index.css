@@ -1203,6 +1203,19 @@ hr {
     .stories-text {
         font-size: 14px;
     }
+
+/* Clients */
+    .client-prof {
+        font-size: 12px;
+    }
+
+    .client-name {
+        font-size: 12px;
+    }
+
+    .clients-text {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 770px) {
@@ -1360,6 +1373,12 @@ hr {
    .last-stories-views {
        margin-bottom: 0;
    }
+
+/* Clients */
+   .clients-item {
+       width: 100%;
+       padding-right: 0;
+   }
 }
 
 @media (max-width: 575px) {
@@ -1480,5 +1499,20 @@ hr {
         max-width: 480px;
         display: block;
     }
-}
 
+/* Clients */
+    .client-img {
+        display: block;
+        position: static;
+        margin: 0 auto;
+    }
+
+    .clients-item {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .client-prof:after {
+        margin: 10px auto;
+    }
+}
