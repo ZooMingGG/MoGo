@@ -137,6 +137,55 @@ hr {
     opacity: 1;
 }
 
+.toggle {
+    display: none;
+}
+
+/* Toggle */
+.toggle {
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.toggle-item,
+.toggle-item:before,
+.toggle-item:after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 3px;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: -1.5px;
+    background-color: #ffffff;
+}
+
+.toggle-item:before {
+    content: "";
+    transform: translateY(-7px);
+    transition: transform 0.2s linear;
+}
+
+.toggle-item:after {
+    content: "";
+    transform: translateY(7px);
+    transition: transform 0.2s linear;
+}
+
+.toggle-active .toggle-item {
+    height: 0;
+}
+
+.toggle-active .toggle-item:before {
+    transform: rotate(45deg);
+}
+
+.toggle-active .toggle-item:after {
+    transform: rotate(-45deg);
+}
+
 /* Button */
 .btn {
     display: inline-block;
@@ -1276,6 +1325,10 @@ hr {
 /* Nav */
     .nav {
         display: none;
+    }
+
+    .toggle {
+        display: block;
     }
 
 /* Slider */
