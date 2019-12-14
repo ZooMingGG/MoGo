@@ -146,6 +146,7 @@ hr {
     height: 50px;
     width: 50px;
     position: relative;
+    cursor: pointer;
 }
 
 .toggle-item,
