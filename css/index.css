@@ -1331,7 +1331,11 @@ hr {
        left: 0;
        width: 100%;
        text-align: center;
-       background-color: #f38181;
+       background-color: #e78482;
+    }
+
+    .nav-active {
+        display: block;
     }
 
     .nav__link {
