@@ -7,10 +7,8 @@ function showNav() {
 }
 
 function showAcordeonContent() {
-    let firstAcordeon = document.getElementById('acordeon-1'),
-    secondAcordeon = document.getElementById('acordeon-2');
+    let firstAcordeon = document.getElementById('acordeon-1');
     firstAcordeon.classList.toggle('active');
-    secondAcordeon.classList.toggle('active');
 }
 
 function showSecondAcordeonContent() {
